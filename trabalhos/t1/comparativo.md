@@ -7,8 +7,8 @@ Nome: Natan Luiz Paetzhold Berwaldt
 
 | Característica                                            | Computador no TOP500  | Meu computador  |
 | --------------------------------------------------------- | --------------------- | --------------- |
-| Nome/Título                                               |       AI Bridging Cloud Infrastructure (ABCI)                 |                 |
-| Imagem (foto, diagrama, screenshot, etc.)                 | Substitua-me. <img src="http://www.top500.org/static//images/Top500_logo.png" width="48"> | Substitua-me. <img src="http://www.top500.org/static//images/Top500_logo.png" width="48">|
+| Nome/Título                                               |       AI Bridging Cloud Infrastructure (ABCI)                 |                 | DELL INSPIRON 14 2640
+| Imagem (foto, diagrama, screenshot, etc.)                 | Substitua-me. <img src="https://cdn.wccftech.com/wp-content/uploads/2018/06/Wccftech-Supercomputer.jpg" width="48"> | Substitua-me. <img src="https://http2.mlstatic.com/notebook-dell-inspiron-14-notebook-inspiron-3421-D_NQ_NP_732694-MLB27039740330_032018-F.jpg" width="48">|
 | Classificação de Flynn                                    |                       |                 |
 | Memória: compartilhada, distribuída ou ambas?             |                       |                 |
 | Número total de núcleos de processamento                  |                       |                 |
