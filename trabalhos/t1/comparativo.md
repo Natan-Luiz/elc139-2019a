@@ -15,8 +15,8 @@ Nome: Natan Luiz Paetzhold Berwaldt
 | Fabricante e modelo do(s) processador(es)                 |         	Intel Xeon Gold 6148 20C              |       Intel Core i5 3337-U          |
 | Frequência do(s) processador(es)                          |           2.4GHz            |          1.8GHz       |
 | Memória total                                             |           417,792 GB            |        6 GB         |
-| Tipo(s) de interconexão entre os núcleos/processadores    |                       |                 |
-| Desempenho Linpack                                        |                       |                 |
+| Tipo(s) de interconexão entre os núcleos/processadores    |       	Infiniband EDR                |                 |
+| Desempenho Linpack                                        |         	19,880 TFlop/s              |                 |
 
 ### Referências
 - Autor (nome de pessoa ou instituição). Título. URL.
