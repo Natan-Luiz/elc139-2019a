@@ -11,7 +11,7 @@ Nome: Natan Luiz Paetzhold Berwaldt
 | Imagem (foto, diagrama, screenshot, etc.)                 |<img src="https://cdn.wccftech.com/wp-content/uploads/2018/06/Wccftech-Supercomputer.jpg" width="48"> | <img src="https://http2.mlstatic.com/notebook-dell-inspiron-14-notebook-inspiron-3421-D_NQ_NP_732694-MLB27039740330_032018-F.jpg" width="48">|
 | Classificação de Flynn                                    |           MIMD            |        SIMD         |
 | Memória: compartilhada, distribuída ou ambas?             |          Ambas             |        Compartilhada         |
-| Número total de núcleos de processamento                  |           	391,680            |         4        |
+| Número total de núcleos de processamento                  |           	391,680            |       2 Nucleos 4 Threads       |
 | Fabricante e modelo do(s) processador(es)                 |         	Intel Xeon Gold 6148 20C              |       Intel Core i5 3337-U          |
 | Frequência do(s) processador(es)                          |           2.4GHz            |          1.8GHz       |
 | Memória total                                             |           417,792 GB            |        6 GB         |
