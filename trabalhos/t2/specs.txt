@@ -1,0 +1,6 @@
+Notebook Dell Inspiron 14 - 2640
+
+CPU: Intel Core I5-3337U
+Frequencia: 1,8GHz (Turbo Boost até 2,7GHz)
+Memória: 6GB RAM
+Sistema Operacional: Linux Mint 18.3 64bits
