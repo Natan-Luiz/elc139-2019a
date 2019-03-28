@@ -23,14 +23,14 @@ Mapeamento: O mapeamento do problema ocorre dentro da função dotprod_threads, 
 O speedUP foi de 1,8 (unidades de medida de speedups :) ).
 
 ### 3)
-
+Percebe-se que em situações semelhantes, onde não há uma variação muito alta no número de elementos do vetor, o aumento de desempenho para multiplas threads é parecido, porem o caso muda quando usado um numero muito pequeno de elementos no vetor ou de repetições, onde o tempo de geração das threads acaba por interferir no resultado final. Outro ponto a ser notado é que testes que demoraram mais (numero de repetições elevado) os resultados aparentam ser mais estáveis, talvez por sofrer menor influencia de outros processos que estejam executando na maquina ou das proprias funções da api de manipulação de threads.
 
 Os resultados detalhados estão em [RESULTS.CSV](results.csv)
 
-### 4)
-|               |         |        |        |        |                |                | 
+### 4)  
+
+|    Repeticoes 20    |   Size      |   1 Thread       |    2 Thread       |     4 Thread      |     SpeedUP 2         |      SpeedUP 4         | 
 |---------------|---------|--------|--------|--------|----------------|----------------| 
-| Repeticoes 20 | Size    | 1      | 2      | 4      | SpeedUP 2      | SpeedUP 4      | 
 | -             | 100     | 282    | 348    | 432    | "0,8103448276" | "0,6527777778" | 
 | -             | 10000   | 1701   | 1401   | 993    | "1,214132762"  | "1,712990937"  | 
 | -             | 1000000 | 81561  | 60684  | 38646  | "1,34402808"   | "2,110464214"  | 
@@ -47,9 +47,8 @@ Os resultados detalhados estão em [RESULTS.CSV](results.csv)
 
 
 
-|                  |         |           |           |           |               |               | 
+|    Repeticoes 20000    |   Size      |   1 Thread       |    2 Thread       |     4 Thread      |     SpeedUP 2         |      SpeedUP 4         | 
 |------------------|---------|-----------|-----------|-----------|---------------|---------------| 
-| Repeticoes 20000 | Size    | 1         | 2         | 4         | SpeedUP 2     | SpeedUP 4     | 
 | -                | 100     | 13566     | 8139      | 3798      | "1,666789532" | "3,571879937" | 
 | -                | 10000   | 721068    | 512256    | 347565    | "1,407632121" | "2,074627767" | 
 | -                | 1000000 | 73294350  | 41530230  | 35603367  | "1,764843344" | "2,058635353" | 
@@ -74,3 +73,4 @@ O arquivo encontra-se em: [opm_dotprod.c](openmp/omp_dotprod.c)
 
 
 ### 2)
+
