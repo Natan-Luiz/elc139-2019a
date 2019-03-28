@@ -3,6 +3,9 @@
 
 
 
+[MINHAS SPECS](specs.txt)
+
+
 ## PARTE 1
 
 Questões:  
@@ -20,6 +23,8 @@ Mapeamento: O mapeamento do problema ocorre dentro da função dotprod_threads, 
 O speedUP foi de 1,8 (unidades de medida de speedups :) ).
 
 ### 3)
+
+
 Os resultados detalhados estão em [RESULTS.CSV](results.csv)
 
 ### 4)
