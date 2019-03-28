@@ -102,6 +102,6 @@ Nota-se novamente aqui que os resultados, quando avaliados em pequeno numero de 
 
 >  MATTSON, Tim e MEADOWS, Larry. Intel Corporation. A “Hands-on” Introduction to OpenMP. [Disponível Aqui](https://www.openmp.org/wp-content/uploads/omp-hands-on-SC08.pdf)
   
-> SILVA, Fernando.DEPARTAMENTO DE CIÊNCIA DE COMPUTADORES - FACULDADE DE CIÊNCIAS DA UNIVERSIDADE DO PORTO. Introdução ao OPENMP. [Disponível Aqui](https://www.dcc.fc.up.pt/~fds/aulas/PPD/0708/intro_openmp-1x2.pdf)
+> SILVA, Fernando. DEPARTAMENTO DE CIÊNCIA DE COMPUTADORES - FACULDADE DE CIÊNCIAS DA UNIVERSIDADE DO PORTO. Introdução ao OPENMP. [Disponível Aqui](https://www.dcc.fc.up.pt/~fds/aulas/PPD/0708/intro_openmp-1x2.pdf)
 
 
