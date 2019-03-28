@@ -70,7 +70,7 @@ O programa gerou o mesmo resultado quando testado, porém isso não é totalment
 ## PARTE 2
 
 ### 1)
-O arquivo encontra-se em:
+O arquivo encontra-se em: [opm_dotprod.c](omp_dotprod.c)
 
 
 ### 2)
