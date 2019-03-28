@@ -97,3 +97,11 @@ Nota-se novamente aqui que os resultados, quando avaliados em pequeno numero de 
 | -             | 10000   | 713694    | 389679    | 330306    | "1,831492074" | "2,160705528" | 
 | -             | 1000000 | 72952281  | 41265087  | 34970232  | "1,767893546" | "2,086125165" | 
 | -             | 5000000 | 362502323 | 200135544 | 168772912 | "1,811284072" | "2,147870287" | 
+
+## REFERENCIAS
+
+>  MATTSON, Tim e MEADOWS, Larry.A “Hands-on” Introduction to OpenMP. [Disponível Aqui](https://www.openmp.org/wp-content/uploads/omp-hands-on-SC08.pdf)
+  
+> SILVA, Fernando. Introdução ao OPENMP. [Disponível Aqui](https://www.dcc.fc.up.pt/~fds/aulas/PPD/0708/intro_openmp-1x2.pdf)
+
+
