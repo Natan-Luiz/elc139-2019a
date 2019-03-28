@@ -20,7 +20,9 @@ Aglomeração: Para evitar o excesso de comunicações, gerando assim muitos ace
 Mapeamento: O mapeamento do problema ocorre dentro da função dotprod_threads, onde é dado uma quantidade semelhante de operações de multiplicação e soma para cada thread. Cada thread fica com uma carga de trabalho equivalente à TOTAL_DE_ELEMENTOS_DO_VETOR/NUMERO_DE_THREADS, neste intervalo a thread é responsável por multiplicar 1 a 1 os elementos com indice equivalente dos dois vetores.  
 
 ### 2)
-O speedUP foi de 1,8 (unidades de medida de speedups :) ).
+Primeira execução: 7369859 usec  
+Segunda execução: 3758176 usec  
+O speedUP foi de 1,9610 (unidades de medida de speedups :) ).
 
 ### 3)
 Percebe-se que em situações semelhantes, onde não há uma variação muito alta no número de elementos do vetor, o aumento de desempenho para multiplas threads é parecido, porem o caso muda quando usado um numero muito pequeno de elementos no vetor ou de repetições, onde o tempo de geração das threads acaba por interferir no resultado final. Outro ponto a ser notado é que testes que demoraram mais (numero de repetições elevado) os resultados aparentam ser mais estáveis, talvez por sofrer menor influencia de outros processos que estejam executando na maquina ou das proprias funções da api de manipulação de threads.
@@ -73,4 +75,25 @@ O arquivo encontra-se em: [opm_dotprod.c](openmp/omp_dotprod.c)
 
 
 ### 2)
+Nota-se novamente aqui que os resultados, quando avaliados em pequeno numero de repetições, são um tanto controversos e imprevisíveis, enquanto testes com duração maior se mostram mais estáveis quanto ao tempo de execução. Em geral notou-se uma diferença mínima favorecendo o OPENMP em relação aos tempos da estrategia que usa pthreads.
 
+| Repeticoes 20 | Size    | 1      | 2      | 4      | SpeedUP 2      | SpeedUP 4        | 
+|---------------|---------|--------|--------|--------|----------------|------------------| 
+| -             | 100     | 18     | 294    | 3048   | "0,0612244898" | "0,005905511811" | 
+| -             | 10000   | 831    | 675    | 972    | "1,231111111"  | "0,8549382716"   | 
+| -             | 1000000 | 73752  | 41664  | 34644  | "1,77016129"   | "2,128853481"    | 
+| -             | 5000000 | 363258 | 201642 | 173652 | "1,801499688"  | "2,091873402"    | 
+
+| Repeticoes 2000 | Size    | 1        | 2        | 4        | SpeedUP 2     | SpeedUP 4     | 
+|---------------|---------|----------|----------|----------|---------------|---------------| 
+| -             | 100     | 969      | 765      | 768      | "1,266666667" | "1,26171875"  | 
+| -             | 10000   | 75762    | 39078    | 38040    | "1,938737909" | "1,991640379" | 
+| -             | 1000000 | 7318056  | 4307277  | 3394338  | "1,69899823"  | "2,155959719" | 
+| -             | 5000000 | 36315597 | 20560740 | 16882740 | "1,76625924"  | "2,151048763" | 
+
+| Repeticoes 20000 | Size    | 1         | 2         | 4         | SpeedUP 2     | SpeedUP 4     | 
+|---------------|---------|-----------|-----------|-----------|---------------|---------------| 
+| -             | 100     | 7803      | 5481      | 4416      | "1,42364532"  | "1,766983696" | 
+| -             | 10000   | 713694    | 389679    | 330306    | "1,831492074" | "2,160705528" | 
+| -             | 1000000 | 72952281  | 41265087  | 34970232  | "1,767893546" | "2,086125165" | 
+| -             | 5000000 | 362502323 | 200135544 | 168772912 | "1,811284072" | "2,147870287" | 
