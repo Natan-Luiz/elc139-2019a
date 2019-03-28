@@ -2,6 +2,9 @@
 #### Disciplina: Programação Paralela
 
 
+
+## PARTE 1
+
 Questões:  
 
 ### 1)
@@ -30,3 +33,12 @@ e
   <code>pthread_mutex_unlock (&mutexsum);</code>
 responsáveis por impedir que duas ou mais threads executem a instrução <code> dotdata.c += mysum;</code> ao mesmo tempo e por consequencia alterem o mesmo endereço de memoria no mesmo instante.
 O programa gerou o mesmo resultado quando testado, porém isso não é totalmente garantido, visto que a memória compartilhada estando desprotegida pode acarretar em duas threads alterando a variavel ao mesmo tempo, fazendo assim com que uma anule o resultado da outra e impedindo que o resultado final seja previsível.
+
+
+## PARTE 2
+
+### 1)
+O arquivo encontra-se em:
+
+
+### 2)
