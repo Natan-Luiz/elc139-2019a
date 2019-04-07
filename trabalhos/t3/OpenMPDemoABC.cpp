@@ -1,3 +1,14 @@
+///////////////////////////////////
+//
+// Natan Luiz Paetzhold Berwaldt
+//    Programação Paralela
+//         Trabalho 3
+//
+//
+///////////////////////////////////
+
+
+
 #include <algorithm>
 #include <iostream>
 #include <string>
