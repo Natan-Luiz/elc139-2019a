@@ -2,10 +2,12 @@
 ## Disciplina: Programação Paralela
 ## Trabalho 3
 
+[OpenMPDemoABC.cpp](OpenMPDemoABC.cpp)
+
 Resultados obtidos com a execução do código:
 
-<code>
 
+```
 Threads adicionam Chars ao array (nThreads= 3 | tamanho array = 60)
 Casos com exclusão mútua.
 
@@ -42,7 +44,7 @@ CAAAAAAAAAAAAAAAAAAAACCCCCCCCCCCCCCCCCCCBBBBBBBBBBBBBBBBBBBB
 A=20 B=20 C=20 
 
 
-## Casos sem exclusão mútua.
+Casos sem exclusão mútua.
 
 
 Case 1: Schedule Static without chunk
@@ -78,4 +80,8 @@ ABCCBACABABCABCAABCACBACABCABACBAACBACBACABCABACABC-BCBCBCB-
 A=20 B=19 C=19 
 
 
-</code>
+```
+
+### REFERENCIAS
+
+FINLAYSON, Ian. OpenMP Scheduling - University of Marry Washington. [Disponível aqui](http://ianfinlayson.net/class/cpsc425/notes/11-scheduling)
