@@ -91,7 +91,7 @@ int main(int argc, char *argv[])
   printf("compute time: %.4f s\n", runtime);
 
   // verify result by writing frames to BMP files
-  if ((width <= 256) && (frames <= 100)) {
+  if ((width <= 2048) && (frames <= 3048)) {
     for (int frame = 0; frame < frames; frame++) {
       char name[32];
       sprintf(name, "fractal%d.bmp", frame + 1000);
