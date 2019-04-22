@@ -80,5 +80,34 @@ Fractal v1.6 [PARALEL DYNAMIC]
 computing 512 frames of 512 by 512 fractal with 4 Threads
 Novo compute time: 97.2018 s
 
+fractal - 2
+
+Fractal v1.6 [serial]
+computing 32 frames of 1024 by 1024 fractal with 1 Threads
+compute time: 49.0655 s
+Fractal v1.6 [serial]
+computing 32 frames of 1024 by 1024 fractal with 2 Threads
+compute time: 26.7215 s
+Fractal v1.6 [serial]
+computing 32 frames of 1024 by 1024 fractal with 4 Threads
+compute time: 17.3590 s
+Fractal v1.6 [serial]
+computing 64 frames of 1024 by 1024 fractal with 1 Threads
+compute time: 93.9899 s
+Fractal v1.6 [serial]
+computing 64 frames of 1024 by 1024 fractal with 2 Threads
+compute time: 51.5898 s
+Fractal v1.6 [serial]
+computing 64 frames of 1024 by 1024 fractal with 4 Threads
+compute time: 33.3012 s
+Fractal v1.6 [serial]
+computing 512 frames of 512 by 512 fractal with 1 Threads
+compute time: 250.9898 s
+Fractal v1.6 [serial]
+computing 512 frames of 512 by 512 fractal with 2 Threads
+compute time: 142.3567 s
+Fractal v1.6 [serial]
+computing 512 frames of 512 by 512 fractal with 4 Threads
+compute time: 90.0424 s
 
 
