@@ -10,4 +10,6 @@
 
 ##### Slides:
 
-[Slides](slides.pdf)
+[Slides PDF](slides.pdf)
+
+[Slides pptx](https://docs.google.com/presentation/d/1XTbWJiZtc82r47Uednd9tfYMijsJIXYQDhGVRGWsL2w/edit?usp=sharing)
