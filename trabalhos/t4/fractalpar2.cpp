@@ -80,7 +80,6 @@ int main(int argc, char *argv[])
         } while ((depth > 0) && ((x2 + y2) < 5.0));
         pic[frame * width * width + row * width + col] = (unsigned char)depth;
       }
-    std::cout << "Thread " << omp_get_thread_num() << " Frame " << frame << std::endl; 
     }
     delta *= 0.98;
   }
