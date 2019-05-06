@@ -122,6 +122,4 @@ int main(int argc, char * argv[])
 		MPI_Send(&msg, 1, MPI_DOUBLE, dest, tag, MPI_COMM_WORLD);
 	}
 	MPI_Finalize();
-	
-	fflush(stdout);
 }
