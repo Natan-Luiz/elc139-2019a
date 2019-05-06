@@ -40,7 +40,6 @@ double dotprod_worker(int part)
          mysum += (a[i] * b[i]);
       }
    }
-   printf("antes %d - %f\n",part, mysum);
    return mysum;
 }
 
@@ -120,8 +119,6 @@ int main(int argc, char * argv[])
 		dest = 0;
 		tag = dest;
 		msg = dotprod_worker(myrank);
-		printf("depois %d - %f\n",myrank, msg);
-		//msg = (double)myrank;
 		MPI_Send(&msg, 1, MPI_DOUBLE, dest, tag, MPI_COMM_WORLD);
 	}
 	MPI_Finalize();
