@@ -9,6 +9,7 @@
 
 ### Parte 2:
 
+A parte 2 foi implementada em: [MPI MENSAGEM](MPImensagem.c)
 
 ### Parte 3:
 
