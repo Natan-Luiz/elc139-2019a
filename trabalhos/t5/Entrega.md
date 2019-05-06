@@ -8,8 +8,8 @@
 
 A parte 1 foi implementada em? [MPI DOTPROD](MPI_dotprod.c)
 
-Compilar: mpicc -o MPI_dotprod MPI_dotprod.c
-Executar: mpiexec -np [PROCESSOS] MPI_dotprod [ELEMENTOS/PROCESSO] [REPETICOES]
+Compilar: mpicc -o MPI_dotprod MPI_dotprod.c  
+Executar: mpiexec -np [PROCESSOS] MPI_dotprod [ELEMENTOS/PROCESSO] [REPETICOES]  
 
 ### Parte 2:
 
