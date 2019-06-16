@@ -6,12 +6,12 @@
 
 ## SPECS DA MAQUINA DE TESTES  ()
   
-  Google Colaboratory (https://colab.research.google.com)
-  Processador: 
-  Nucles/Threads:
-  Frequencia:
-  Memoria:
-  GPU:
+  Google Colaboratory (https://colab.research.google.com)  
+  Processador:   
+  Nucles/Threads:  
+  Frequencia:  
+  Memoria:    
+  GPU:  
   
     
       
@@ -20,13 +20,12 @@
 
 ## PARTE 1:
 
-  Implementação 1 (AQUI)[wavecuda1.cu]
+  Implementação 1 [AQUI](wavecuda1.cu)
   
   
 ## PARTE 2:
 
-  Implementação 2 (AQUI)[wavecuda2.cu]
-  
+  Implementação 2 [AQUI](wavecuda2.cu)
   
 ## REFERENCIAS:
 
