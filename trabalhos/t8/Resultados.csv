@@ -1,3 +1,11 @@
+EXEMPLO,-
+Execução(Resolucao-Frames),Tempo(ms)
+1024-100,5321.0
+1024-200,10629.8
+1024-1000,53020.0
+256-500,1680.5
+-,-
+-,-
 PARTE 1,-
 Execução(Resolucao-Frames),Tempo(ms)
 1024-100,635.0
