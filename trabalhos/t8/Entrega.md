@@ -7,11 +7,13 @@
 ## SPECS DA MAQUINA DE TESTES  ()
   
   Google Colaboratory (https://colab.research.google.com)  
-  Processador:   
-  Nucles/Threads:  
-  Frequencia:  
-  Memoria:    
-  GPU:  
+  Processador:    Intel(R) Xeon(R) CPU @   
+  Nucles/Threads:  1/2  
+  Frequencia:  2.2 GHZ   
+  Memoria:    13 GB  
+  
+  GPU: Tesla T4  
+  GPU memoria: 15079 MBs   
   
     
       
