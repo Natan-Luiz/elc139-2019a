@@ -1,4 +1,4 @@
-PARTE 1
+PARTE 1,-
 Execução(Resolucao-Frames),Tempo(ms)
 1024-100,635.0
 1024-200,666.5
@@ -6,7 +6,7 @@ Execução(Resolucao-Frames),Tempo(ms)
 2048-100,2010.0
 -,-
 -,-
-PARTE 2
+PARTE 2,-
 Execução(Resolucao-Frames),Tempo(ms)
 1024-100,35.5
 1024-200,82.3
