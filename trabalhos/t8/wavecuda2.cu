@@ -6,7 +6,7 @@
 __global__
 void CalcPixel(unsigned char* pic, int width, int frame)
 {
-    int row = threadIdx.y;
+    int row = blockIdx.x;
     int col = threadIdx.x;
     float fx = col - 1024/2;
     float fy = row - 1024/2;
@@ -36,12 +36,14 @@ int main(int argc, char *argv[])
 
 
     for(int i = 0; i< frames; i++){
-        dim3 thr(width, width);
-        CalcPixel<<<1,thr>>>(pic,width,i);   
+        int b_size = width;
+        int num_b = width;
+        CalcPixel<<<num_b,b_size>>>(pic,width,i);  
     }
+    cudaDeviceSynchronize();    
 
     // verify result by writing frames to BMP files
-    if ((width <= 256) && (frames <= 100)) {
+    if ((frames <= 100)) {
       for (int frame = 0; frame < frames; frame++) {
         char name[32];
         sprintf(name, "wave%d.bmp", frame + 1000);
