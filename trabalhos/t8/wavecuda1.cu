@@ -7,7 +7,6 @@ __global__
 void CalcFrame(unsigned char* pic, int width)
 {
     int frame = threadIdx.x;
-    printf("%d\n",frame);
     for (int row = 0; row < width; row++) {
         for (int col = 0; col < width; col++) {
             float fx = col - 1024/2;
@@ -41,9 +40,11 @@ int main(int argc, char *argv[])
 
 
     CalcFrame<<<1,frames>>>(pic,width);
+    
+    cudaDeviceSynchronize();
 
     // verify result by writing frames to BMP files
-    if ((width <= 256) && (frames <= 100)) {
+    if ((frames <= 100)) {
       for (int frame = 0; frame < frames; frame++) {
         char name[32];
         sprintf(name, "wave%d.bmp", frame + 1000);
