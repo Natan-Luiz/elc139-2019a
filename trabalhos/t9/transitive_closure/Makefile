@@ -2,7 +2,7 @@ FLAGS= -std=c++11
 
 RM=rm -f
 
-EXEC=transitive
+EXEC=transitive_closure
 
 all: $(EXEC)
 
