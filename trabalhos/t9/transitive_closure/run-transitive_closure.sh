@@ -1,7 +1,7 @@
 #!/bin/bash
-#SBATCH -J test           # job name
-#SBATCH -o test.out       # output file name (%j expands to jobID), this file captures standered output from the shell
-#SBATCH -e test.err      # error file name (%j expands to jobID), this file captures standered errors genereted from the program
+#SBATCH -J transitive_closure           # job name
+#SBATCH -o transitive_closure.out       # output file name (%j expands to jobID), this file captures standered output from the shell
+#SBATCH -e transitive_closure.err      # error file name (%j expands to jobID), this file captures standered errors genereted from the program
 #SBATCH  --nodes  1        # total number of nodes requested
 #SBATCH --ntasks-per-node 1 # total number cores requested per node. Using this option and --node option above you could fine tune r$
 #SBATCH -p qCDER            # partition --qCDER (to find out available partitions please run 'sinfo' command)
