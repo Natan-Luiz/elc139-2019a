@@ -1,7 +1,7 @@
 #!/bin/bash
-#SBATCH -J kmean           # job name
-#SBATCH -o test.out       # output file name (%j expands to jobID), this file captures standered output from the shell
-#SBATCH -e test.err      # error file name (%j expands to jobID), this file captures standered errors genereted from the program
+#SBATCH -J kmeans           # job name
+#SBATCH -o kmeans.out       # output file name (%j expands to jobID), this file captures standered output from the shell
+#SBATCH -e kmeans.err      # error file name (%j expands to jobID), this file captures standered errors genereted from the program
 #SBATCH  --nodes  1        # total number of nodes requested
 #SBATCH --ntasks-per-node 1 # total number cores requested per node. Using this option and --node option above you could fine tune resource requests.
 #SBATCH -p qCDER            # partition --qCDER (to find out available partitions please run 'sinfo' command)
