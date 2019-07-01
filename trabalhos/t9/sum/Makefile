@@ -10,4 +10,4 @@ $(EXEC):
 	$(MPICC) $(FLAGS) $(EXEC).o -o $(EXEC)
 
 clean:
-$(RM) $(EXEC).o $(EXEC)
+	$(RM) $(EXEC).o $(EXEC)
