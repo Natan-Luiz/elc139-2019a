@@ -17,6 +17,6 @@ make
 
 # execute any program
 #to run MPI program
-srun ./transitive < tr.in
+srun ./transitive_closure < transitive_closure.in
 
 
