@@ -1,4 +1,4 @@
-FLAGS= -std=c++11
+FLAGS= -O3 -std=c++11
 
 RM=rm -f
 
