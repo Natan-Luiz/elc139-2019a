@@ -25,7 +25,10 @@ função com memoria compartilhada: [coll_sm_bcast.c](OpenMPI/coll_sm_bcast.c) (
 
 
 Outra implementação do MPI, o *MPICH* utiliza em sua base o subsistema de mensagem "Nemesis", o qual é responsável pelo controle 
-de comunicação em alta performance em memória compartilhada.  
+de comunicação em alta performance em memória compartilhada. 
+
+[BCAST no MPICH](MPICH/bcast.c)
+
 
 Nota-se que em nenhuma das implementações há uso explicito de OpenMP ou pthreads, o que indica que a forma como foi implementado 
 o paralelismo lcoal com compartilhamento de memória é baseado em estratégias próprias desenvolvidas pelos programadores de 
