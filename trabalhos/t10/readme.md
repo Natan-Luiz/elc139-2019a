@@ -18,10 +18,10 @@ O *Open MPI* por sua vez faz uso de modulos *BTL (Byte Transport Layer)* sendo a
 de modo geral, o sender escreve na memória compartilhada o dado e então o receiver acessa essa posição da memória e lê o mesmo, 
 para ter acesso à estes métodos o proprio MPI avalia se a aplicação requer ou não o compartilhamento de memória e se ela terá vantagem
 em questão de velocidade, se a resposta é afirmativa, ao invés de utilizar a função padrão que é feita através da rede, ela utiliza uma função
-especifica de memória compartilhada.
-função padrão: "coll_bcast.c"
-função com memoria compartilhada: "coll_sm_bcast.c" (localizada em: ompi-master\ompi-master\ompi\mca\coll\sm\coll_sm_bcast.c)
-)
+especifica de memória compartilhada.  
+função padrão: "coll_bcast.c"  
+função com memoria compartilhada: "coll_sm_bcast.c" (localizada em: ompi-master\ompi-master\ompi\mca\coll\sm\coll_sm_bcast.c)  
+
 
 
 Outra implementação do MPI, o *MPICH* utiliza em sua base o subsistema de mensagem "Nemesis", o qual é responsável pelo controle 
