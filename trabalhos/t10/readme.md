@@ -20,7 +20,7 @@ para ter acesso à estes métodos o proprio MPI avalia se a aplicação requer o
 em questão de velocidade, se a resposta é afirmativa, ao invés de utilizar a função padrão que é feita através da rede, ela utiliza uma função
 especifica de memória compartilhada.  
 função padrão: "coll_bcast.c"  
-função com memoria compartilhada: "coll_sm_bcast.c" (localizada em: ompi-master\ompi-master\ompi\mca\coll\sm\coll_sm_bcast.c)  
+função com memoria compartilhada: [coll_sm_bcast.c](OpenMPI/coll_sm_bcast.c) (localizada em: ompi-master\ompi-master\ompi\mca\coll\sm\coll_sm_bcast.c)  
 
 
 
